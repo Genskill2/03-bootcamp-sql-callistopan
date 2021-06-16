@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "SQL checks",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -s -vv test_sql.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    }
+  ]
+}
